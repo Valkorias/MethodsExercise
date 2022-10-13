@@ -17,9 +17,9 @@
             Console.WriteLine("What color is your dog?");
             string userDogColor = Console.ReadLine();
 
-            Console.WriteLine($"There was a man named {userName}, He was {age} years old.");
-            Console.WriteLine($"He had a {userDogColor} dog named {userDogName}");
-            Console.WriteLine($"{userName} loved {userDogName} but he did not love being {age} years old!");
+            Console.WriteLine($"There was a wanderer named {userName}, He was {age} years old.");
+            Console.WriteLine($"He had a fearsome {userDogColor} dog named {userDogName}");
+            Console.WriteLine($"{userName} loved {userDogName} but being {age} years old sure made life difficult!");
         }
     }
 }
