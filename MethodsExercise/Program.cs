@@ -4,7 +4,7 @@ namespace MethodsExercise
 {
     internal class Program
     {
-        private static int sum;
+        public static int sum { get; private set; }
 
         static void Main(string[] args)
         {
@@ -31,7 +31,7 @@ namespace MethodsExercise
             Console.WriteLine("Give me a number to add to the first number");
             int num2 = int.Parse(Console.ReadLine());
 
-            int sum = Sum(num1, num1, 2, 3, 5, 7);
+            int sum = Sum(num1, num1, 2, 4, 6);
             Console.WriteLine($"The sum is: {sum}");
 
             Console.WriteLine("Give me a number");
@@ -49,6 +49,8 @@ namespace MethodsExercise
             for (int i = 0; i < list.Length; i++)
             {
                 sum = sum + list[i];
+
+                
             }
 
             return sum;
